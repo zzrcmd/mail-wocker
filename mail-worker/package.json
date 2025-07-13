@@ -1,0 +1,27 @@
+{
+	"name": "mail-worker",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "wrangler dev --config wrangler-dev.toml",
+		"test": "wrangler deploy --config wrangler-test.toml",
+		"deploy": "wrangler deploy",
+		"start": "wrangler dev"
+	},
+	"devDependencies": {
+		"@cloudflare/vitest-pool-workers": "^0.7.5",
+		"vitest": "~3.0.7",
+		"wrangler": "^4.7.0"
+	},
+	"dependencies": {
+		"@cloudflare/vite-plugin": "^1.0.5",
+		"dayjs": "^1.11.13",
+		"drizzle-orm": "^0.42.0",
+		"hono": "^4.7.5",
+		"linkedom": "^0.18.10",
+		"postal-mime": "^2.4.3",
+		"resend": "^4.5.1",
+		"ua-parser-js": "^2.0.3",
+		"uuid": "^11.1.0"
+	}
+}
