@@ -2,7 +2,7 @@ name = 'mail-worker'
 main = "src/index.js"
 compatibility_date = "2025-04-09"
 keep_vars = true
-
+ 
 [observability]
 enabled = true
 
